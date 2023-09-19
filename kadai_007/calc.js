@@ -10,6 +10,9 @@ else if (num % 5 == 0) {
   console.log('5の倍数です');
 }
 
+else  {
+  console.log(num);
+}
 //numを3または5で割ったらあまりが0になる＝3と5の倍数
 if (num % 3 == 0 && num % 5 == 0) {
   console.log('3と5の倍数です');
